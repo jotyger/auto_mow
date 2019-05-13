@@ -1,1 +1,0 @@
-cltool.exe -c=* -baud=3000000 -msgGPS
