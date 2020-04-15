@@ -1,0 +1,8 @@
+prefix=/home/pi/ros_catkin_ws/install_isolated
+
+Name: opencv_tests
+Description: Description of opencv_tests
+Version: 1.12.8
+Cflags: 
+Libs: -L/home/pi/ros_catkin_ws/install_isolated/lib 
+Requires: 

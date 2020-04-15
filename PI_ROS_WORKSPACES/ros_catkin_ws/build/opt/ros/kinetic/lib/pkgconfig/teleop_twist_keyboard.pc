@@ -1,0 +1,8 @@
+prefix=/home/pi/ros_catkin_ws/build/opt/ros/kinetic
+
+Name: teleop_twist_keyboard
+Description: Description of teleop_twist_keyboard
+Version: 0.6.2
+Cflags: 
+Libs: -L/home/pi/ros_catkin_ws/build/opt/ros/kinetic/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/pi/test/install_isolated
+
+Name: urdf
+Description: Description of urdf
+Version: 1.12.12
+Cflags: -I/home/pi/test/install_isolated/include -I/usr/include
+Libs: -L/home/pi/test/install_isolated/lib -lurdf /usr/lib/arm-linux-gnueabihf/liburdfdom_sensor.so /usr/lib/arm-linux-gnueabihf/liburdfdom_model_state.so /usr/lib/arm-linux-gnueabihf/liburdfdom_model.so /usr/lib/arm-linux-gnueabihf/liburdfdom_world.so /usr/lib/arm-linux-gnueabihf/libconsole_bridge.so /usr/lib/arm-linux-gnueabihf/libboost_thread.so /usr/lib/arm-linux-gnueabihf/libboost_chrono.so /usr/lib/arm-linux-gnueabihf/libboost_system.so /usr/lib/arm-linux-gnueabihf/libboost_date_time.so /usr/lib/arm-linux-gnueabihf/libboost_atomic.so /usr/lib/arm-linux-gnueabihf/libpthread.so /usr/lib/arm-linux-gnueabihf/libtinyxml.so
+Requires: rosconsole_bridge roscpp

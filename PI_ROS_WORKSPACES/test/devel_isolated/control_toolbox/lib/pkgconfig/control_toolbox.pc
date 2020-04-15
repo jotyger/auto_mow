@@ -1,0 +1,8 @@
+prefix=/home/pi/test/devel_isolated/control_toolbox
+
+Name: control_toolbox
+Description: Description of control_toolbox
+Version: 1.17.0
+Cflags: -I/home/pi/test/devel_isolated/control_toolbox/include -I/home/pi/test/src/control_toolbox/include -I/usr/include
+Libs: -L/home/pi/test/devel_isolated/control_toolbox/lib -lcontrol_toolbox /usr/lib/arm-linux-gnueabihf/libtinyxml.so
+Requires: control_msgs dynamic_reconfigure message_runtime realtime_tools roscpp std_msgs

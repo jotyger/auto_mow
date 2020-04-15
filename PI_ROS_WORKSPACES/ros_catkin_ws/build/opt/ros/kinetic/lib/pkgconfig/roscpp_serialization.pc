@@ -1,0 +1,8 @@
+prefix=/home/pi/ros_catkin_ws/build/opt/ros/kinetic
+
+Name: roscpp_serialization
+Description: Description of roscpp_serialization
+Version: 0.6.11
+Cflags: -I/home/pi/ros_catkin_ws/build/opt/ros/kinetic/include
+Libs: -L/home/pi/ros_catkin_ws/build/opt/ros/kinetic/lib -lroscpp_serialization
+Requires: cpp_common roscpp_traits rostime

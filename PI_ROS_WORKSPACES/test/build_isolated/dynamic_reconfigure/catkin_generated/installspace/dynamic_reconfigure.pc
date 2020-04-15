@@ -1,0 +1,8 @@
+prefix=/home/pi/test/install_isolated
+
+Name: dynamic_reconfigure
+Description: Description of dynamic_reconfigure
+Version: 1.7.0
+Cflags: -I/home/pi/test/install_isolated/include
+Libs: -L/home/pi/test/install_isolated/lib -ldynamic_reconfigure_config_init_mutex
+Requires: message_runtime std_msgs

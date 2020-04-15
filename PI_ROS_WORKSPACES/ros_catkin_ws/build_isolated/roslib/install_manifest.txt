@@ -1,0 +1,14 @@
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/_setup_util.py
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/env.sh
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/setup.bash
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/setup.sh
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/setup.zsh
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/.rosinstall
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/lib/pkgconfig/roslib.pc
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/roslib/cmake/roslib-extras.cmake
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/roslib/cmake/roslibConfig.cmake
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/roslib/cmake/roslibConfig-version.cmake
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/roslib/package.xml
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/lib/libroslib.so
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/include/ros/package.h
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/lib/roslib/gendeps

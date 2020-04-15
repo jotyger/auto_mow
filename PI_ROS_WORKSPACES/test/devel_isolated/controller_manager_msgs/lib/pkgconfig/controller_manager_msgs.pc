@@ -1,0 +1,8 @@
+prefix=/home/pi/test/devel_isolated/controller_manager_msgs
+
+Name: controller_manager_msgs
+Description: Description of controller_manager_msgs
+Version: 0.13.5
+Cflags: -I/home/pi/test/devel_isolated/controller_manager_msgs/include
+Libs: -L/home/pi/test/devel_isolated/controller_manager_msgs/lib 
+Requires: std_msgs message_runtime

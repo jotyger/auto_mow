@@ -1,0 +1,8 @@
+prefix=/home/pi/test/install_isolated
+
+Name: combined_robot_hw
+Description: Description of combined_robot_hw
+Version: 0.13.5
+Cflags: -I/home/pi/test/install_isolated/include
+Libs: -L/home/pi/test/install_isolated/lib -lcombined_robot_hw
+Requires: hardware_interface pluginlib roscpp

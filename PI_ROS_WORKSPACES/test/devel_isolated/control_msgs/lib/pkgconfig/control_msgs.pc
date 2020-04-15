@@ -1,0 +1,8 @@
+prefix=/home/pi/test/devel_isolated/control_msgs
+
+Name: control_msgs
+Description: Description of control_msgs
+Version: 1.5.2
+Cflags: -I/home/pi/test/devel_isolated/control_msgs/include
+Libs: -L/home/pi/test/devel_isolated/control_msgs/lib 
+Requires: actionlib_msgs geometry_msgs message_runtime std_msgs trajectory_msgs

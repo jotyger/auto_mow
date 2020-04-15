@@ -1,0 +1,13 @@
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/_setup_util.py
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/env.sh
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/setup.bash
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/setup.sh
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/setup.zsh
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/.rosinstall
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/lib/pkgconfig/gennodejs.pc
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/gennodejs/cmake/gennodejs-extras.cmake
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/gennodejs/cmake/gennodejsConfig.cmake
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/gennodejs/cmake/gennodejsConfig-version.cmake
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/gennodejs/package.xml
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/etc/ros/genmsg/gennodejs
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/lib/gennodejs/gen_nodejs.py

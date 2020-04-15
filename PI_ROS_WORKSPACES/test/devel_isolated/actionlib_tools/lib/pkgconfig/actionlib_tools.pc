@@ -1,0 +1,8 @@
+prefix=/home/pi/test/devel_isolated/actionlib_tools
+
+Name: actionlib_tools
+Description: Description of actionlib_tools
+Version: 1.13.0
+Cflags: 
+Libs: -L/home/pi/test/devel_isolated/actionlib_tools/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/pi/test/install_isolated
+
+Name: stereo_msgs
+Description: Description of stereo_msgs
+Version: 1.12.7
+Cflags: -I/home/pi/test/install_isolated/include
+Libs: -L/home/pi/test/install_isolated/lib 
+Requires: message_runtime sensor_msgs std_msgs

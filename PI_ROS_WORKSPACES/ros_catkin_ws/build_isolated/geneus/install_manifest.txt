@@ -1,0 +1,14 @@
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/_setup_util.py
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/env.sh
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/setup.bash
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/setup.sh
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/setup.zsh
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/.rosinstall
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/lib/pkgconfig/geneus.pc
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/geneus/cmake/geneus-extras.cmake
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/geneus/cmake/geneusConfig.cmake
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/geneus/cmake/geneusConfig-version.cmake
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/geneus/package.xml
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/etc/ros/genmsg/geneus
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/roseus/rospack_nosubdirs
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/lib/geneus/gen_eus.py

@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/pi/test/build_isolated/rosclean/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f62ae/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f62ae.dir/build.make CMakeFiles/cmTC_f62ae.dir/build
+make[1]: Entering directory '/home/pi/test/build_isolated/rosclean/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f62ae.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_f62ae.dir/CheckSymbolExists.c.o   -c /home/pi/test/build_isolated/rosclean/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f62ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f62ae.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_f62ae.dir/CheckSymbolExists.c.o  -o cmTC_f62ae -rdynamic 
+CMakeFiles/cmTC_f62ae.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x38): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f62ae.dir/build.make:97: recipe for target 'cmTC_f62ae' failed
+make[1]: *** [cmTC_f62ae] Error 1
+make[1]: Leaving directory '/home/pi/test/build_isolated/rosclean/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f62ae/fast' failed
+make: *** [cmTC_f62ae/fast] Error 2
+
+File /home/pi/test/build_isolated/rosclean/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/test/build_isolated/rosclean/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1e5dd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1e5dd.dir/build.make CMakeFiles/cmTC_1e5dd.dir/build
+make[1]: Entering directory '/home/pi/test/build_isolated/rosclean/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1e5dd.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1e5dd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1e5dd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e5dd.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_1e5dd.dir/CheckFunctionExists.c.o  -o cmTC_1e5dd -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1e5dd.dir/build.make:97: recipe for target 'cmTC_1e5dd' failed
+make[1]: *** [cmTC_1e5dd] Error 1
+make[1]: Leaving directory '/home/pi/test/build_isolated/rosclean/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1e5dd/fast' failed
+make: *** [cmTC_1e5dd/fast] Error 2
+
+

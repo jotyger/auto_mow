@@ -1,0 +1,8 @@
+prefix=/home/pi/test/devel_isolated/test_diagnostic_aggregator
+
+Name: test_diagnostic_aggregator
+Description: Description of test_diagnostic_aggregator
+Version: 1.9.3
+Cflags: -I/home/pi/test/src/diagnostics/test_diagnostic_aggregator/include
+Libs: -L/home/pi/test/devel_isolated/test_diagnostic_aggregator/lib -ltest_diagnostic_aggregator
+Requires: diagnostic_aggregator diagnostic_msgs pluginlib roscpp rospy

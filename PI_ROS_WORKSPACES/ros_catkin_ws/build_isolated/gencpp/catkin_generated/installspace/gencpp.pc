@@ -1,0 +1,8 @@
+prefix=/home/pi/ros_catkin_ws/install_isolated
+
+Name: gencpp
+Description: Description of gencpp
+Version: 0.6.0
+Cflags: 
+Libs: -L/home/pi/ros_catkin_ws/install_isolated/lib 
+Requires: genmsg

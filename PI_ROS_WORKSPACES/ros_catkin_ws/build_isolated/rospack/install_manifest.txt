@@ -1,0 +1,16 @@
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/_setup_util.py
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/env.sh
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/setup.bash
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/setup.sh
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/setup.zsh
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/.rosinstall
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/lib/pkgconfig/rospack.pc
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/rospack/cmake/rospackConfig.cmake
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/rospack/cmake/rospackConfig-version.cmake
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/rospack/package.xml
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/lib/librospack.so
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/bin/rospack
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/bin/rosstack
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/include/rospack/rospack.h
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/include/rospack/rospack_backcompat.h
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/include/rospack/macros.h

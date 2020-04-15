@@ -1,0 +1,8 @@
+prefix=/home/pi/test/devel_isolated/genpy
+
+Name: genpy
+Description: Description of genpy
+Version: 0.6.7
+Cflags: 
+Libs: -L/home/pi/test/devel_isolated/genpy/lib 
+Requires: genmsg

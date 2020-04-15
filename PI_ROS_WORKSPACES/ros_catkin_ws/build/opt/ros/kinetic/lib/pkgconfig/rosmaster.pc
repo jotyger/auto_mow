@@ -1,0 +1,8 @@
+prefix=/home/pi/ros_catkin_ws/build/opt/ros/kinetic
+
+Name: rosmaster
+Description: Description of rosmaster
+Version: 1.12.14
+Cflags: 
+Libs: -L/home/pi/ros_catkin_ws/build/opt/ros/kinetic/lib 
+Requires: 

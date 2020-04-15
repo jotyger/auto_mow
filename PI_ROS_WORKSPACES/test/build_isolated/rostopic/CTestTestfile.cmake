@@ -1,0 +1,9 @@
+# CMake generated Testfile for 
+# Source directory: /home/pi/test/src/ros_comm/rostopic
+# Build directory: /home/pi/test/build_isolated/rostopic
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(_ctest_rostopic_rostest_test_rostopic.test "/home/pi/test/build_isolated/rostopic/catkin_generated/env_cached.sh" "/usr/bin/python" "/home/pi/test/src/catkin/cmake/test/run_tests.py" "/home/pi/test/build_isolated/rostopic/test_results/rostopic/rostest-test_rostopic.xml" "--return-code" "/home/pi/test/src/ros_comm/rostest/scripts/rostest --pkgdir=/home/pi/test/src/ros_comm/rostopic --package=rostopic --results-filename test_rostopic.xml --results-base-dir \"/home/pi/test/build_isolated/rostopic/test_results\" /home/pi/test/src/ros_comm/rostopic/test/rostopic.test ")
+add_test(_ctest_rostopic_nosetests_test.test_rostopic_command_line_offline.py "/home/pi/test/build_isolated/rostopic/catkin_generated/env_cached.sh" "/usr/bin/python" "/home/pi/test/src/catkin/cmake/test/run_tests.py" "/home/pi/test/build_isolated/rostopic/test_results/rostopic/nosetests-test.test_rostopic_command_line_offline.py.xml" "--return-code" "/usr/bin/cmake -E make_directory /home/pi/test/build_isolated/rostopic/test_results/rostopic" "/usr/bin/nosetests-2.7 -P --process-timeout=60 /home/pi/test/src/ros_comm/rostopic/test/test_rostopic_command_line_offline.py --with-xunit --xunit-file=/home/pi/test/build_isolated/rostopic/test_results/rostopic/nosetests-test.test_rostopic_command_line_offline.py.xml")
+subdirs("gtest")

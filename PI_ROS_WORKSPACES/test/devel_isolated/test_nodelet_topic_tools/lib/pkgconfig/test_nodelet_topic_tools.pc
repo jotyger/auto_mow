@@ -1,0 +1,8 @@
+prefix=/home/pi/test/devel_isolated/test_nodelet_topic_tools
+
+Name: test_nodelet_topic_tools
+Description: Description of test_nodelet_topic_tools
+Version: 1.9.16
+Cflags: 
+Libs: -L/home/pi/test/devel_isolated/test_nodelet_topic_tools/lib 
+Requires: message_filters nodelet nodelet_topic_tools pluginlib roscpp

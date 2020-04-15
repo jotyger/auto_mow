@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/pi/test/devel_isolated/transmission_interface/setup.sh

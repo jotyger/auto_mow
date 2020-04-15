@@ -1,0 +1,8 @@
+prefix=/home/pi/test/install
+
+Name: catkin
+Description: Description of catkin
+Version: 0.7.14
+Cflags: 
+Libs: -L/home/pi/test/install/lib 
+Requires: 

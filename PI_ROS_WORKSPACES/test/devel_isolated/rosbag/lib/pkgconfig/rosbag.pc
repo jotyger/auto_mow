@@ -1,0 +1,8 @@
+prefix=/home/pi/test/devel_isolated/rosbag
+
+Name: rosbag
+Description: Description of rosbag
+Version: 1.12.14
+Cflags: -I/home/pi/test/src/ros_comm/rosbag/include
+Libs: -L/home/pi/test/devel_isolated/rosbag/lib -lrosbag
+Requires: rosbag_storage rosconsole roscpp std_srvs topic_tools xmlrpcpp

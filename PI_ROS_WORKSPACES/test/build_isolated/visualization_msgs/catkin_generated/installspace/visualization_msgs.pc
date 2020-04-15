@@ -1,0 +1,8 @@
+prefix=/home/pi/test/install_isolated
+
+Name: visualization_msgs
+Description: Description of visualization_msgs
+Version: 1.12.7
+Cflags: -I/home/pi/test/install_isolated/include
+Libs: -L/home/pi/test/install_isolated/lib 
+Requires: geometry_msgs message_runtime std_msgs

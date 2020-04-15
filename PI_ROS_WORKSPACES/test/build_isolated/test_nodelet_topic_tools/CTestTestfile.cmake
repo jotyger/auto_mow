@@ -1,0 +1,9 @@
+# CMake generated Testfile for 
+# Source directory: /home/pi/test/src/nodelet_core/test_nodelet_topic_tools
+# Build directory: /home/pi/test/build_isolated/test_nodelet_topic_tools
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(_ctest_test_nodelet_topic_tools_rostest_test_test_nodelet_lazy.launch "/home/pi/test/build_isolated/test_nodelet_topic_tools/catkin_generated/env_cached.sh" "/usr/bin/python" "/home/pi/test/src/catkin/cmake/test/run_tests.py" "/home/pi/test/build_isolated/test_nodelet_topic_tools/test_results/test_nodelet_topic_tools/rostest-test_test_nodelet_lazy.xml" "--return-code" "/home/pi/test/src/ros_comm/rostest/scripts/rostest --pkgdir=/home/pi/test/src/nodelet_core/test_nodelet_topic_tools --package=test_nodelet_topic_tools --results-filename test_test_nodelet_lazy.xml --results-base-dir \"/home/pi/test/build_isolated/test_nodelet_topic_tools/test_results\" /home/pi/test/src/nodelet_core/test_nodelet_topic_tools/test/test_nodelet_lazy.launch ")
+add_test(_ctest_test_nodelet_topic_tools_rostest_test_test_nodelet_throttle.launch "/home/pi/test/build_isolated/test_nodelet_topic_tools/catkin_generated/env_cached.sh" "/usr/bin/python" "/home/pi/test/src/catkin/cmake/test/run_tests.py" "/home/pi/test/build_isolated/test_nodelet_topic_tools/test_results/test_nodelet_topic_tools/rostest-test_test_nodelet_throttle.xml" "--return-code" "/home/pi/test/src/ros_comm/rostest/scripts/rostest --pkgdir=/home/pi/test/src/nodelet_core/test_nodelet_topic_tools --package=test_nodelet_topic_tools --results-filename test_test_nodelet_throttle.xml --results-base-dir \"/home/pi/test/build_isolated/test_nodelet_topic_tools/test_results\" /home/pi/test/src/nodelet_core/test_nodelet_topic_tools/test/test_nodelet_throttle.launch ")
+subdirs("gtest")

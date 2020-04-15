@@ -1,0 +1,8 @@
+prefix=/home/pi/ros_catkin_ws/build/opt/ros/kinetic
+
+Name: roslib
+Description: Description of roslib
+Version: 1.14.4
+Cflags: -I/home/pi/ros_catkin_ws/build/opt/ros/kinetic/include
+Libs: -L/home/pi/ros_catkin_ws/build/opt/ros/kinetic/lib -lroslib
+Requires: rospack

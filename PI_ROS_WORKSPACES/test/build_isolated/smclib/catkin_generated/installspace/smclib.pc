@@ -1,0 +1,8 @@
+prefix=/home/pi/test/install_isolated
+
+Name: smclib
+Description: Description of smclib
+Version: 1.8.4
+Cflags: -I/home/pi/test/install_isolated/include
+Libs: -L/home/pi/test/install_isolated/lib 
+Requires: 

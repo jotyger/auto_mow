@@ -1,0 +1,8 @@
+prefix=/home/pi/ros_catkin_ws/install
+
+Name: roslaunch
+Description: Description of roslaunch
+Version: 1.12.14
+Cflags: 
+Libs: -L/home/pi/ros_catkin_ws/install/lib 
+Requires: 

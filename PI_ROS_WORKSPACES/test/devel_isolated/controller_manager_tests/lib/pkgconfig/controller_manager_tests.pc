@@ -1,0 +1,8 @@
+prefix=/home/pi/test/devel_isolated/controller_manager_tests
+
+Name: controller_manager_tests
+Description: Description of controller_manager_tests
+Version: 0.13.5
+Cflags: -I/home/pi/test/src/ros_control/controller_manager_tests/include
+Libs: -L/home/pi/test/devel_isolated/controller_manager_tests/lib -lcontroller_manager_tests
+Requires: controller_manager controller_interface

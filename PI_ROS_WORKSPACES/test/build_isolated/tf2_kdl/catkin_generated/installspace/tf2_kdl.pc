@@ -1,0 +1,8 @@
+prefix=/home/pi/test/install_isolated
+
+Name: tf2_kdl
+Description: Description of tf2_kdl
+Version: 0.6.7
+Cflags: -I/home/pi/test/install_isolated/include -I/usr/include/eigen3 -I/home/pi/test/devel_isolated/orocos_kdl/share/orocos_kdl/cmake/../../../include
+Libs: -L/home/pi/test/install_isolated/lib /home/pi/test/devel_isolated/orocos_kdl/lib/liborocos-kdl.so.1.4.0
+Requires: 

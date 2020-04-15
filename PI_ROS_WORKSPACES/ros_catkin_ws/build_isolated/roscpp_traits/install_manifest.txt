@@ -1,0 +1,16 @@
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/_setup_util.py
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/env.sh
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/setup.bash
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/setup.sh
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/setup.zsh
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/.rosinstall
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/lib/pkgconfig/roscpp_traits.pc
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/roscpp_traits/cmake/roscpp_traitsConfig-version.cmake
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/roscpp_traits/package.xml
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/include/ros/message_event.h
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/include/ros/message_forward.h
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/include/ros/message_traits.h
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/include/ros/message_operations.h
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/include/ros/service_traits.h
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/include/ros/builtin_message_traits.h

@@ -1,0 +1,8 @@
+prefix=/home/pi/test/install_isolated
+
+Name: mk
+Description: Description of mk
+Version: 1.14.4
+Cflags: 
+Libs: -L/home/pi/test/install_isolated/lib 
+Requires: 

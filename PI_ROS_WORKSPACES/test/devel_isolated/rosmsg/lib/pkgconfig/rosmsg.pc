@@ -1,0 +1,8 @@
+prefix=/home/pi/test/devel_isolated/rosmsg
+
+Name: rosmsg
+Description: Description of rosmsg
+Version: 1.12.14
+Cflags: 
+Libs: -L/home/pi/test/devel_isolated/rosmsg/lib 
+Requires: 

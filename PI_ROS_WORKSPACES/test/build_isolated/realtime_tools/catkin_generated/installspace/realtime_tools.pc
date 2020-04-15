@@ -1,0 +1,8 @@
+prefix=/home/pi/test/install_isolated
+
+Name: realtime_tools
+Description: Description of realtime_tools
+Version: 1.11.1
+Cflags: -I/home/pi/test/install_isolated/include
+Libs: -L/home/pi/test/install_isolated/lib -lrealtime_tools
+Requires: roscpp rospy

@@ -1,0 +1,8 @@
+prefix=/home/pi/test/devel_isolated/test_bond
+
+Name: test_bond
+Description: Description of test_bond
+Version: 1.8.4
+Cflags: -I/home/pi/test/devel_isolated/test_bond/include
+Libs: -L/home/pi/test/devel_isolated/test_bond/lib 
+Requires: 

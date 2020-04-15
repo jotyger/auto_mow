@@ -1,0 +1,14 @@
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/_setup_util.py
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/env.sh
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/setup.bash
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/setup.sh
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/setup.zsh
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/.rosinstall
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/lib/pkgconfig/ros_environment.pc
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/ros_environment/cmake/ros_environmentConfig.cmake
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/ros_environment/cmake/ros_environmentConfig-version.cmake
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/ros_environment/package.xml
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/etc/catkin/profile.d/1.ros_distro.sh
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/etc/catkin/profile.d/1.ros_etc_dir.sh
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/etc/catkin/profile.d/1.ros_package_path.sh
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/etc/catkin/profile.d/1.ros_version.sh

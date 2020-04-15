@@ -1,0 +1,8 @@
+prefix=/home/pi/test/devel_isolated/nodelet
+
+Name: nodelet
+Description: Description of nodelet
+Version: 1.9.16
+Cflags: -I/home/pi/test/devel_isolated/nodelet/include -I/home/pi/test/src/nodelet_core/nodelet/include -I/usr/include
+Libs: -L/home/pi/test/devel_isolated/nodelet/lib -lnodeletlib
+Requires: bondcpp message_runtime pluginlib rosconsole roscpp std_msgs

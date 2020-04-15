@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/pi/test/devel_isolated/roscpp/setup.sh

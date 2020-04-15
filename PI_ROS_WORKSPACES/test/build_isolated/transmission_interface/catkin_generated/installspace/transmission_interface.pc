@@ -1,0 +1,8 @@
+prefix=/home/pi/test/install_isolated
+
+Name: transmission_interface
+Description: Description of transmission_interface
+Version: 0.13.5
+Cflags: -I/home/pi/test/install_isolated/include -I/usr/include
+Libs: -L/home/pi/test/install_isolated/lib -ltransmission_interface_parser -ltransmission_interface_loader -ltransmission_interface_loader_plugins /usr/lib/arm-linux-gnueabihf/libtinyxml.so
+Requires: pluginlib roscpp

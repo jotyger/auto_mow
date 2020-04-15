@@ -1,0 +1,8 @@
+prefix=/home/pi/test/devel_isolated/roslib
+
+Name: roslib
+Description: Description of roslib
+Version: 1.14.4
+Cflags: -I/home/pi/test/src/ros/roslib/include
+Libs: -L/home/pi/test/devel_isolated/roslib/lib -lroslib
+Requires: rospack

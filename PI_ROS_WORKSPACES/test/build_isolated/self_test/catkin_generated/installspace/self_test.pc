@@ -1,0 +1,8 @@
+prefix=/home/pi/test/install_isolated
+
+Name: self_test
+Description: Description of self_test
+Version: 1.9.3
+Cflags: -I/home/pi/test/install_isolated/include
+Libs: -L/home/pi/test/install_isolated/lib 
+Requires: diagnostic_msgs diagnostic_updater roscpp

@@ -1,0 +1,14 @@
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/_setup_util.py
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/env.sh
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/setup.bash
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/setup.sh
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/setup.zsh
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/.rosinstall
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/lib/pkgconfig/roscpp_serialization.pc
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/roscpp_serialization/cmake/roscpp_serializationConfig.cmake
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/roscpp_serialization/cmake/roscpp_serializationConfig-version.cmake
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/roscpp_serialization/package.xml
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/include/ros/serialized_message.h
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/include/ros/roscpp_serialization_macros.h
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/include/ros/serialization.h

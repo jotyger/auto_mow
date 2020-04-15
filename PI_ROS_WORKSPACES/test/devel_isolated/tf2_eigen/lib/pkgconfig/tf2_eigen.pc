@@ -1,0 +1,8 @@
+prefix=/home/pi/test/devel_isolated/tf2_eigen
+
+Name: tf2_eigen
+Description: Description of tf2_eigen
+Version: 0.6.7
+Cflags: -I/home/pi/test/src/geometry2/tf2_eigen/include -I/usr/include/eigen3
+Libs: -L/home/pi/test/devel_isolated/tf2_eigen/lib 
+Requires: 

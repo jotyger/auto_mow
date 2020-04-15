@@ -1,0 +1,8 @@
+prefix=/home/pi/test/install_isolated
+
+Name: diagnostic_common_diagnostics
+Description: Description of diagnostic_common_diagnostics
+Version: 1.9.3
+Cflags: 
+Libs: -L/home/pi/test/install_isolated/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/pi/test/devel_isolated/rosdiagnostic
+
+Name: rosdiagnostic
+Description: Description of rosdiagnostic
+Version: 1.9.3
+Cflags: 
+Libs: -L/home/pi/test/devel_isolated/rosdiagnostic/lib 
+Requires: 

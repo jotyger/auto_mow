@@ -1,0 +1,8 @@
+prefix=/home/pi/test/install_isolated
+
+Name: hardware_interface
+Description: Description of hardware_interface
+Version: 0.13.5
+Cflags: -I/home/pi/test/install_isolated/include
+Libs: -L/home/pi/test/install_isolated/lib 
+Requires: roscpp

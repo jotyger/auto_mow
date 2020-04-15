@@ -1,0 +1,8 @@
+prefix=/home/pi/test/devel_isolated/bondpy
+
+Name: bondpy
+Description: Description of bondpy
+Version: 1.8.4
+Cflags: 
+Libs: -L/home/pi/test/devel_isolated/bondpy/lib 
+Requires: 

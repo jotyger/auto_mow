@@ -1,0 +1,8 @@
+prefix=/home/pi/test/install_isolated
+
+Name: rosconsole_bridge
+Description: Description of rosconsole_bridge
+Version: 0.5.4
+Cflags: -I/home/pi/test/install_isolated/include -I/usr/include
+Libs: -L/home/pi/test/install_isolated/lib -lrosconsole_bridge /usr/lib/arm-linux-gnueabihf/libconsole_bridge.so
+Requires: rosconsole

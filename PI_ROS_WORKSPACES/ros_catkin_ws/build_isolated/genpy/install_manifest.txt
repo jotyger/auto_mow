@@ -1,0 +1,14 @@
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/_setup_util.py
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/env.sh
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/setup.bash
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/setup.sh
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/setup.zsh
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/.rosinstall
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/lib/pkgconfig/genpy.pc
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/genpy/cmake/genpy-extras.cmake
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/genpy/cmake/genpyConfig.cmake
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/genpy/cmake/genpyConfig-version.cmake
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/genpy/package.xml
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/etc/ros/genmsg/genpy
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/lib/genpy/gensrv_py.py

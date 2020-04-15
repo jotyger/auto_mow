@@ -1,0 +1,8 @@
+prefix=/home/pi/test/devel_isolated/transmission_interface
+
+Name: transmission_interface
+Description: Description of transmission_interface
+Version: 0.13.5
+Cflags: -I/home/pi/test/src/ros_control/transmission_interface/include -I/usr/include
+Libs: -L/home/pi/test/devel_isolated/transmission_interface/lib -ltransmission_interface_parser -ltransmission_interface_loader -ltransmission_interface_loader_plugins /usr/lib/arm-linux-gnueabihf/libtinyxml.so
+Requires: pluginlib roscpp

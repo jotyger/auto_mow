@@ -1,0 +1,8 @@
+prefix=/home/pi/test/devel_isolated/diagnostic_aggregator
+
+Name: diagnostic_aggregator
+Description: Description of diagnostic_aggregator
+Version: 1.9.3
+Cflags: -I/home/pi/test/src/diagnostics/diagnostic_aggregator/include
+Libs: -L/home/pi/test/devel_isolated/diagnostic_aggregator/lib -ldiagnostic_aggregator
+Requires: diagnostic_msgs pluginlib roscpp rospy xmlrpcpp bondcpp

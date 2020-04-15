@@ -1,0 +1,13 @@
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/_setup_util.py
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/env.sh
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/setup.bash
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/setup.sh
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/setup.zsh
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/.rosinstall
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/lib/pkgconfig/image_geometry.pc
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/image_geometry/cmake/image_geometryConfig.cmake
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/image_geometry/cmake/image_geometryConfig-version.cmake
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/image_geometry/package.xml
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/include/image_geometry//stereo_camera_model.h
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/include/image_geometry//pinhole_camera_model.h
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/lib/libimage_geometry.so

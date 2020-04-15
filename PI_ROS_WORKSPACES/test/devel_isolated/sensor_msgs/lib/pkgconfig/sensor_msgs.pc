@@ -1,0 +1,8 @@
+prefix=/home/pi/test/devel_isolated/sensor_msgs
+
+Name: sensor_msgs
+Description: Description of sensor_msgs
+Version: 1.12.7
+Cflags: -I/home/pi/test/devel_isolated/sensor_msgs/include -I/home/pi/test/src/common_msgs/sensor_msgs/include
+Libs: -L/home/pi/test/devel_isolated/sensor_msgs/lib 
+Requires: geometry_msgs message_runtime std_msgs

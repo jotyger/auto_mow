@@ -1,0 +1,8 @@
+prefix=/home/pi/test/install_isolated
+
+Name: controller_interface
+Description: Description of controller_interface
+Version: 0.13.5
+Cflags: -I/home/pi/test/install_isolated/include
+Libs: -L/home/pi/test/install_isolated/lib 
+Requires: roscpp hardware_interface pluginlib

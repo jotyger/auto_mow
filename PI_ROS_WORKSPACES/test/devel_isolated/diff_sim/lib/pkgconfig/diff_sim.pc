@@ -1,0 +1,8 @@
+prefix=/home/pi/test/devel_isolated/diff_sim
+
+Name: diff_sim
+Description: Description of diff_sim
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/pi/test/devel_isolated/diff_sim/lib 
+Requires: 

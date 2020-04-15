@@ -1,0 +1,8 @@
+prefix=/home/pi/test/install_isolated
+
+Name: kdl_msgs
+Description: Description of kdl_msgs
+Version: 0.0.0
+Cflags: -I/home/pi/test/install_isolated/include -I/home/pi/test/devel_isolated/orocos_kdl/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3
+Libs: -L/home/pi/test/install_isolated/lib /home/pi/test/devel_isolated/orocos_kdl/lib/liborocos-kdl.so.1.4.0
+Requires: std_msgs message_runtime

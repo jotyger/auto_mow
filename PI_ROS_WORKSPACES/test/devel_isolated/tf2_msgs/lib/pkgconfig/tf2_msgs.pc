@@ -1,0 +1,8 @@
+prefix=/home/pi/test/devel_isolated/tf2_msgs
+
+Name: tf2_msgs
+Description: Description of tf2_msgs
+Version: 0.6.7
+Cflags: -I/home/pi/test/devel_isolated/tf2_msgs/include -I/home/pi/test/src/geometry2/tf2_msgs/include
+Libs: -L/home/pi/test/devel_isolated/tf2_msgs/lib 
+Requires: message_generation geometry_msgs actionlib_msgs

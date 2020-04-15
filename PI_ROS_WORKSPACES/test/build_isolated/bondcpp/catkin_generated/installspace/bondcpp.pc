@@ -1,0 +1,8 @@
+prefix=/home/pi/test/install_isolated
+
+Name: bondcpp
+Description: Description of bondcpp
+Version: 1.8.4
+Cflags: -I/home/pi/test/install_isolated/include -I/usr/include
+Libs: -L/home/pi/test/install_isolated/lib -lbondcpp /usr/lib/arm-linux-gnueabihf/libuuid.so
+Requires: bond roscpp smclib

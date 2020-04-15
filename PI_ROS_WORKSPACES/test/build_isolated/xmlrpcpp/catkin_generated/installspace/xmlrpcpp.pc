@@ -1,0 +1,8 @@
+prefix=/home/pi/test/install_isolated
+
+Name: xmlrpcpp
+Description: Description of xmlrpcpp
+Version: 1.12.14
+Cflags: -I/home/pi/test/install_isolated/include
+Libs: -L/home/pi/test/install_isolated/lib -lxmlrpcpp
+Requires: cpp_common rostime

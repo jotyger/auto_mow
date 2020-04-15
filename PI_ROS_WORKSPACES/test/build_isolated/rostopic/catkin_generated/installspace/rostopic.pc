@@ -1,0 +1,8 @@
+prefix=/home/pi/test/install_isolated
+
+Name: rostopic
+Description: Description of rostopic
+Version: 1.12.14
+Cflags: 
+Libs: -L/home/pi/test/install_isolated/lib 
+Requires: 

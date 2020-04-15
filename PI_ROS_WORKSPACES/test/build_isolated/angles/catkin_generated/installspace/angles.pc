@@ -1,0 +1,8 @@
+prefix=/home/pi/test/install_isolated
+
+Name: angles
+Description: Description of angles
+Version: 1.9.13
+Cflags: -I/home/pi/test/install_isolated/include
+Libs: -L/home/pi/test/install_isolated/lib 
+Requires: 

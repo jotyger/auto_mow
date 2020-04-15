@@ -1,0 +1,1 @@
+set(ORDERED_PATHS "/home/pi/test/devel_isolated/roslz4/lib;/home/pi/ros_catkin_ws/build/opt/ros/kinetic/lib")

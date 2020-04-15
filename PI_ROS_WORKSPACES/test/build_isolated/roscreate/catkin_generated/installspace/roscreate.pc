@@ -1,0 +1,8 @@
+prefix=/home/pi/test/install_isolated
+
+Name: roscreate
+Description: Description of roscreate
+Version: 1.14.4
+Cflags: 
+Libs: -L/home/pi/test/install_isolated/lib 
+Requires: 

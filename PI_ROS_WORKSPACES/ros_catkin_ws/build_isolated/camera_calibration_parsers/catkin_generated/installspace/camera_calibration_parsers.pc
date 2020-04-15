@@ -1,0 +1,8 @@
+prefix=/home/pi/ros_catkin_ws/install_isolated
+
+Name: camera_calibration_parsers
+Description: Description of camera_calibration_parsers
+Version: 1.11.13
+Cflags: -I/home/pi/ros_catkin_ws/install_isolated/include
+Libs: -L/home/pi/ros_catkin_ws/install_isolated/lib -lcamera_calibration_parsers
+Requires: sensor_msgs

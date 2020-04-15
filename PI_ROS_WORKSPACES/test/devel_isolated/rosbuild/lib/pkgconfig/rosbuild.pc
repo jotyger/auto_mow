@@ -1,0 +1,8 @@
+prefix=/home/pi/test/devel_isolated/rosbuild
+
+Name: rosbuild
+Description: Description of rosbuild
+Version: 1.14.4
+Cflags: 
+Libs: -L/home/pi/test/devel_isolated/rosbuild/lib 
+Requires: 

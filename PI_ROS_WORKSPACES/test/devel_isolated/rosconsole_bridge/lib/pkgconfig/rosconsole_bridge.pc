@@ -1,0 +1,8 @@
+prefix=/home/pi/test/devel_isolated/rosconsole_bridge
+
+Name: rosconsole_bridge
+Description: Description of rosconsole_bridge
+Version: 0.5.4
+Cflags: -I/home/pi/test/src/rosconsole_bridge/include -I/usr/include
+Libs: -L/home/pi/test/devel_isolated/rosconsole_bridge/lib -lrosconsole_bridge /usr/lib/arm-linux-gnueabihf/libconsole_bridge.so
+Requires: rosconsole

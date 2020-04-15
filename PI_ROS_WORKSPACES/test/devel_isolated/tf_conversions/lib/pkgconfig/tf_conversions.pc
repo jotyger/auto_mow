@@ -1,0 +1,8 @@
+prefix=/home/pi/test/devel_isolated/tf_conversions
+
+Name: tf_conversions
+Description: Description of tf_conversions
+Version: 1.11.9
+Cflags: -I/home/pi/test/src/geometry/tf_conversions/include -I/usr/include/eigen3 -I/home/pi/test/devel_isolated/orocos_kdl/share/orocos_kdl/cmake/../../../include
+Libs: -L/home/pi/test/devel_isolated/tf_conversions/lib -ltf_conversions /home/pi/test/devel_isolated/orocos_kdl/lib/liborocos-kdl.so.1.4.0
+Requires: geometry_msgs kdl_conversions tf

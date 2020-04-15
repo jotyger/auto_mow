@@ -1,0 +1,8 @@
+prefix=/home/pi/test/devel_isolated/rqt_controller_manager
+
+Name: rqt_controller_manager
+Description: Description of rqt_controller_manager
+Version: 0.13.5
+Cflags: 
+Libs: -L/home/pi/test/devel_isolated/rqt_controller_manager/lib 
+Requires: 

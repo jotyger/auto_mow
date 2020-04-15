@@ -1,0 +1,8 @@
+prefix=/home/pi/test/devel_isolated/angles
+
+Name: angles
+Description: Description of angles
+Version: 1.9.13
+Cflags: -I/home/pi/test/src/angles/angles/include
+Libs: -L/home/pi/test/devel_isolated/angles/lib 
+Requires: 

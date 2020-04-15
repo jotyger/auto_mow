@@ -1,0 +1,6 @@
+set(rosdiagnostic_SETUP_PY_VERSION "1.9.3")
+set(rosdiagnostic_SETUP_PY_SCRIPTS "scripts/rosdiagnostic")
+set(rosdiagnostic_SETUP_PY_PACKAGES "rosdiagnostic")
+set(rosdiagnostic_SETUP_PY_PACKAGE_DIRS "src/rosdiagnostic")
+set(rosdiagnostic_SETUP_PY_MODULES "")
+set(rosdiagnostic_SETUP_PY_MODULE_DIRS "")

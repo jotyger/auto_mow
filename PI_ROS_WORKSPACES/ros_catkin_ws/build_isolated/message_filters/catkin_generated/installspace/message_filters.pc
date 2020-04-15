@@ -1,0 +1,8 @@
+prefix=/home/pi/ros_catkin_ws/install_isolated
+
+Name: message_filters
+Description: Description of message_filters
+Version: 1.12.14
+Cflags: -I/home/pi/ros_catkin_ws/install_isolated/include
+Libs: -L/home/pi/ros_catkin_ws/install_isolated/lib -lmessage_filters
+Requires: roscpp xmlrpcpp rosconsole

@@ -1,0 +1,12 @@
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/_setup_util.py
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/env.sh
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/setup.bash
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/setup.sh
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/setup.zsh
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/.rosinstall
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/lib/pkgconfig/camera_info_manager.pc
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/camera_info_manager/cmake/camera_info_managerConfig.cmake
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/camera_info_manager/cmake/camera_info_managerConfig-version.cmake
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/share/camera_info_manager/package.xml
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/lib/libcamera_info_manager.so
+/home/pi/ros_catkin_ws/build/opt/ros/kinetic/include/camera_info_manager/camera_info_manager.h

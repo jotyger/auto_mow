@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/rosstackexe.dir/src/rosstack_main.cpp.o  -o /home/pi/ros_catkin_ws/devel/bin/rosstack -Wl,-rpath,/home/pi/ros_catkin_ws/devel/lib: -rdynamic /home/pi/ros_catkin_ws/devel/lib/librospack.so -lboost_filesystem -lboost_program_options -lboost_system -ltinyxml -lboost_filesystem -lboost_program_options -lboost_system -lpython2.7 
