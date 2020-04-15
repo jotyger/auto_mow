@@ -1,0 +1,2 @@
+set(pt_actions_MESSAGE_FILES "/home/ubuntu/catkin_ws/devel/share/pt_actions/msg/NavigateAction.msg;/home/ubuntu/catkin_ws/devel/share/pt_actions/msg/NavigateActionGoal.msg;/home/ubuntu/catkin_ws/devel/share/pt_actions/msg/NavigateActionResult.msg;/home/ubuntu/catkin_ws/devel/share/pt_actions/msg/NavigateActionFeedback.msg;/home/ubuntu/catkin_ws/devel/share/pt_actions/msg/NavigateGoal.msg;/home/ubuntu/catkin_ws/devel/share/pt_actions/msg/NavigateResult.msg;/home/ubuntu/catkin_ws/devel/share/pt_actions/msg/NavigateFeedback.msg")
+set(pt_actions_SERVICE_FILES "")

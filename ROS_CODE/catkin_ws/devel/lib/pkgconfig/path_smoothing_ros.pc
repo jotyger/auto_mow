@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/catkin_ws/devel
+
+Name: path_smoothing_ros
+Description: Description of path_smoothing_ros
+Version: 0.0.0
+Cflags: -I/home/ubuntu/catkin_ws/src/path-smoothing-ros-master/include
+Libs: -L/home/ubuntu/catkin_ws/devel/lib -lpath_smoothing_ros
+Requires: roscpp geometry_msgs nav_msgs

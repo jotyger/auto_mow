@@ -1,0 +1,8 @@
+digraph G {
+"base_footprint" -> "base_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 13.006 sec old)\nBuffer length: 0.000 sec\n"];
+"map" -> "base_footprint"[label="Broadcaster: /gazebo\nAverage rate: 40.601 Hz\nMost recent transform: 12.998 ( 0.008 sec old)\nBuffer length: 1.798 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 13.006"[ shape=plaintext ] ;
+ }->"map";
+}

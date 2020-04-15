@@ -1,0 +1,2 @@
+ackermann_msgs:diff_drive_controller:diff_sim:differential-drive:pure_pursuit
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu/diff/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/diff/install -G Unix Makefiles

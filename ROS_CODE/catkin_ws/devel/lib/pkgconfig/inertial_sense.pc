@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/catkin_ws/devel
+
+Name: inertial_sense
+Description: Description of inertial_sense
+Version: 1.1.1
+Cflags: -I/home/ubuntu/catkin_ws/devel/include -I/home/ubuntu/catkin_ws/src/inertial_sense_ros/include
+Libs: -L${prefix}/lib -linertial_sense_ros
+Requires: roscpp sensor_msgs geometry_msgs

@@ -1,0 +1,18 @@
+  <launch>
+	<rosparam subst_value="True">   </rosparam>
+	<!--<node name="IMU_Sensor_Node" pkg="inertial_sense" type="inertial_sense_node" output="screen" > 
+	<remap from ="ins" to="IMU"/>
+	</node> -->
+	<!--<node name="GPIO_Driver" pkg="test_wiringpi_ros" type="test_wiringpi_ros" output="screen" />-->
+	<!--<node type="test.py" name="Directional_Decision" pkg="test_wiringpi_ros" output="screen" />-->
+	<node name="Heading_Test" pkg="rotate_robot" type="main.py" output="screen"  />
+	<node pkg="rosbag" type="play" name="player" output="log" args="--clock /home/ubuntu/catkin_ws/bagfiles/partial_bag.bag"/>
+	<node name="listener2" pkg="inertial_sense" type="listener2.py" output="screen" />
+	<node name="publish_gps" pkg="topic_tools" type="transform" args="/gps       /gps/location     geometry_msgs/Vector3   'm.posEcef'"  />
+	
+
+	<node pkg="rviz" type="rviz" name="rviz" output="screen" args="-d $(find rotate_robot)/rviz/path_explore.rviz"/>
+	<node name="Autonomous_Driver" pkg="rotate_robot" type="pose.py" output="screen" />
+	<!--<node name="Starter" pkg="rotate_robot" type="path_loader.py" output="screen" /> -->
+	<node name="ExcelToPath" pkg="rotate_robot" type="excel_to_path.py" output="screen" />
+</launch>

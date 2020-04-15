@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/diff/install
+
+Name: diff_sim
+Description: Description of diff_sim
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

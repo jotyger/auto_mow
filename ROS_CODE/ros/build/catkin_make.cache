@@ -1,0 +1,2 @@
+ackermann_msgs:diff_drive_controller:pure_pursuit
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu/ros/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros/install -G Unix Makefiles

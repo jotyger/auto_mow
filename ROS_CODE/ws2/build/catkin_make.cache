@@ -1,0 +1,2 @@
+gazebo_ros_demos-kinetic-devel/gazebo_tutorials:gazebo_ros_demos-kinetic-devel/rrbot_control:gazebo_ros_demos-kinetic-devel/rrbot_description:gazebo_ros_demos-kinetic-devel/rrbot_gazebo
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu/ws2/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ws2/install -G Unix Makefiles

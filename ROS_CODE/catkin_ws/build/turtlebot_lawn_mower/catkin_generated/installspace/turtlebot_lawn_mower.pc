@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/catkin_ws/install
+
+Name: turtlebot_lawn_mower
+Description: Description of turtlebot_lawn_mower
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lturtlebot_lawn_mower -lLawnMower
+Requires: actionlib actionlib_msgs geometry_msgs move_base_msgs roscpp std_msgs rospy tf

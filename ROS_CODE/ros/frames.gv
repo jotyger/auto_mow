@@ -1,0 +1,10 @@
+digraph G {
+"base_footprint" -> "base_link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 216.061 sec old)\nBuffer length: 0.000 sec\n"];
+"map" -> "base_footprint"[label="Broadcaster: /gazebo\nAverage rate: 20.039 Hz\nMost recent transform: 216.030 ( 0.031 sec old)\nBuffer length: 2.595 sec\n"];
+"map" -> "map_frame_id_"[label="Broadcaster: /trasform_path_to_map\nAverage rate: 88.516 Hz\nMost recent transform: 216.062 ( -0.001 sec old)\nBuffer length: 2.621 sec\n"];
+"base_link" -> "lookahead"[label="Broadcaster: /Pure_Pursuit_Node\nAverage rate: 19.954 Hz\nMost recent transform: 216.042 ( 0.019 sec old)\nBuffer length: 2.606 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 216.061"[ shape=plaintext ] ;
+ }->"map";
+}

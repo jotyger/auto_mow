@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/catkin_ws/install
+
+Name: tedusar_daf_path_follower
+Description: Description of tedusar_daf_path_follower
+Version: 0.1.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: actionlib nav_msgs roscpp tedusar_nav_msgs tf
