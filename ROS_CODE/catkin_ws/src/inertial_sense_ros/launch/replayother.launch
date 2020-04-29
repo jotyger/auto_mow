@@ -1,0 +1,14 @@
+<arg name="robot_name" default="robot"/>
+
+        <node pkg="gazebo_ros" type="spawn_model" name="spawn_robot" 
+		args= "-unpause -urdf -param robot_description -model $(arg robot_name)" respawn = "false">
+	</node>
+
+
+	<param name="/use_sim_time" value="false"/>
+	  <node
+	    pkg="gazebo" type="gazebo" name="empty_world.launch"
+	    args="$(find gazebo_worlds)/worlds/empty.world">
+  	</node>
+
+<include file="$(find gazebo_ros)/launch/empty_world.launch"/>

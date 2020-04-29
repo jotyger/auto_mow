@@ -1,0 +1,21 @@
+<launch>
+	<rosparam subst_value="True"/>
+
+	<!--<include file="$(find gazebo_ros)/launch/empty_world.launch"/> -->
+	<!--	<rosparam param="reach_rs_host_or_ip">192.168.42.1</rosparam> -->
+
+	<!--<param name="robot_description" command="cat $(find inertial_sense)/urdf/robot.urdf" /> -->
+
+	<node pkg="rviz" type="rviz" name="rviz" output="screen"/>
+
+	<node pkg="reach_rs_driver" type="reach_rs_driver_node" name="gps_input" output="screen">
+       		<rosparam param="reach_rs_host_or_ip">192.168.42.1</rosparam>
+       		<rosparam param="reach_rs_port">9001</rosparam>
+		<rosparam param="reach_rs_frame_id">map</rosparam>
+    	</node>
+	
+	<node pkg="inertial_sense" type="navsatfix_to_pose.py" name="Navsatfix_To_Pose" output="screen"/>
+
+	<node pkg="rotate_robot" type="pose_to_path.py" name="Pose_To_Path" output="screen"/>
+
+</launch>

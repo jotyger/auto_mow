@@ -1,0 +1,56 @@
+  <launch>
+	<rosparam subst_value="True">
+
+    inertial_sense_node: { port: "/dev/ttyUSB0",
+                           baud: 921600,
+                           frame_id: my_frame,
+                           navigation_dt_ms: 10,
+                           stream_INS: true,
+                           stream_IMU: false,
+                           stream_GPS: true,
+                           stream_GPS_info: true,
+                           stream_baro: false,
+                           stream_mag: false,
+                           stream_preint_IMU: false,
+                           stream_GPS_raw: false,
+                           inclination: 1.14878541071,
+                           declination: 0.20007290992,
+                           dynamic_model: 8,
+                           INS_rpy: [1.5708, 0 0],
+                           INS_xyz: [1, 0, 0],
+                           GPS_ant_xyz: [1, 1, 1],
+                           GPS_ref_lla: [40.25, -111.67, 1556.59],
+                           serial1_baud_rate: 115200,
+                           NMEA_rate: 200,
+                           NMEA_configuration: 0x0F,
+                           NMEA_ports: 0x02,
+                           RTK_rover: true,
+                           RTK_correction_type: RTCM3,
+                           #RTK_server_IP:  localhost ,
+                           RTK_server_port:  9000 ,
+                         }
+    </rosparam>
+
+	<node name="IMU_sensor" pkg="inertial_sense" type="inertial_sense_node" output="screen">
+	<rosparam param="stream_IMU">true</rosparam>
+	  </node>
+
+	<node pkg="robot_localization" type="navsat_transform_node" name="navsat_transform_node" respawn="true">
+
+    <param name="magnetic_declination_radians" value="0"/>
+
+    <param name="yaw_offset" value="0"/>
+
+    <remap from="/imu/data" to="/imu" />
+    <remap from="/gps/fix" to="/fix" />
+    <remap from="/odometry/filtered" to="/odometry/gps" />
+
+  </node>
+	
+	<node name="Reach_GPS" pkg="reach_rs_driver" type="reach_rs_driver_node" output="screen">
+	<rosparam param="reach_rs_host_or_ip">192.168.42.1</rosparam>
+        <rosparam param="reach_rs_frame_id">body</rosparam>
+	<rosparam param="reach_rs_port">9001</rosparam>
+	  </node>
+
+</launch>
