@@ -1,0 +1,54 @@
+<launch>
+
+<arg name="node_start_delay" default="4" /> 
+
+<node pkg="pure_pursuit" name="Pure_Pursuit_Node" type="pure_pursuit" output="screen">
+</node>
+
+<node pkg="pure_pursuit" name="Excel_To_Path" type="excel_to_path.py" output="screen"/>
+
+<node pkg="rviz" type="rviz" name="rviz" output="screen" args="-d $(find pure_pursuit)/rviz/path.rviz"/>
+
+<node pkg="tf" type = "static_transform_publisher" name="trasform_path_to_map" args= "0 0 0 0 0 0 1 map map_frame_id_ 10" />
+<!--<node pkg="tf" type = "static_transform_publisher" name="trasform_base_to_map" args= "0 0 0 0 0 0 1 map base_footprint 10" />-->
+
+<!--<node pkg="rostopic" name="rostopic" type="rostopic" launch-prefix="bash -c 'sleep $(arg node_start_delay); $0 $@' " args="/go std_msgs/Bool 'true'" /> -->
+
+<arg name="initial_pose_x" default="0.0"/>
+<arg name="initial_pose_y" default="0.0"/>
+<arg name="initial_pose_a" default="0"/>
+<arg name="robot_name" default="robot"/>
+<param name="robot_description" command="$(find xacro)/xacro --inorder '$(find pure_pursuit)/urdf/$(arg robot_name).urdf'"/>
+
+
+  <!-- <node pkg = "gazebo_ros" type= -->
+    <node pkg="gazebo_ros" type="spawn_model" name="spawn_$(arg robot_name)" 
+        args="-x $(arg initial_pose_x) -y $(arg initial_pose_y) -Y $(arg initial_pose_a)
+        -unpause -urdf -param robot_description -model $(arg robot_name)" respawn="false">
+    </node>
+
+ <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"
+    respawn="false" output="screen">
+  </node>
+
+<!--<node pkg="pure_pursuit" name="odom_pub" type="odom.py"/> -->
+
+<!-- We resume the logic in empty_world.launch, changing only the name of the world to be launched -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <!--<arg name="world_name" value="worlds/mud.world"/>  Note: the world_name is with respect to GAZEBO_RESOURCE_PATH environmental variable -->
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="false"/>
+    <arg name="recording" value="false"/>
+    <arg name="debug" value="false"/>
+  </include>
+
+<node pkg="rostopic" name="rostopic" type="rostopic" args=" pub go std_msgs/Bool 'data: false'"/>
+
+<node pkg="rqt_reconfigure" name="rqt_reconfigure" type="rqt_reconfigure" args="/Pure_Pursuit_Node"/>
+
+<node pkg="pure_pursuit" name="Mowed_Path" type="path.py" output="screen"/>
+
+<node pkg="pure_pursuit" name="Wheel_Velocities" type="wheel_velocities.py" output="screen"/>
+
+</launch>
