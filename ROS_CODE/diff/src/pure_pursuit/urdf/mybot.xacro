@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<robot name="test_model">
+
+  <!-- root link, on the ground just below the model origin -->
+  <link name="base_footprint">
+   <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <box size="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+
+  <joint name="base_link_joint" type="fixed">
+    <origin xyz="0.0 0 .1" rpy="0 0 0" />
+    <parent link="base_footprint"/>
+    <child link="base_link" />
+  </joint>
+
+  <!-- the model -->
+  <link name="base_link">
+    <inertial>
+      <mass value="50" />
+      <origin xyz="0 0 0" />
+      <inertia ixx="50.0" ixy="0.0" ixz="0.0"
+        iyy="50.0" iyz="0.0"
+        izz="50.0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <box size=".3 .3 .2" /> <!-- does not need to match collision -->
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" />
+      <geometry>
+        <box size=".3 .3 .2" /> <!-- does not need to match collision -->
+      </geometry>
+    </collision>
+  </link>
+
+ <link name="left_wheel">
+   <visual>
+      <origin xyz="-1 0 0" rpy="0 0 0" />
+      <geometry>
+        <box size="0.1 0.1 0.1" />
+      </geometry>
+    </visual>
+  </link>
+
+  <joint name="base_link_left_wheel_joint" type="fixed">
+    <origin xyz="1 0 0" rpy="0 0 0" />
+    <parent link="base_footprint"/>
+    <child link="left_wheel" />
+  </joint>
+
+ <link name="right_wheel">
+   <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <box size="0.1 0.1 0.1" />
+      </geometry>
+    </visual>
+  </link>
+
+  <joint name="base_link_right_wheel_joint" type="fixed">
+    <origin xyz="1 0 0" rpy="0 0 0" />
+    <parent link="base_footprint"/>
+    <child link="right_wheel" />
+  </joint>
+
+ <gazebo>
+  <plugin name="differential_drive_controller" filename="libgazebo_ros_diff_drive.so">
+    <alwaysOn>true</alwaysOn>
+    <updateRate>20</updateRate>
+    <leftJoint>base_link_right_wheel_joint</leftJoint>
+    <rightJoint>base_link_left_wheel_joint</rightJoint>
+    <wheelSeparation>0.5380</wheelSeparation>
+    <wheelDiameter>0.2410</wheelDiameter>
+    <torque>20</torque>
+    <commandTopic>cmd_vel</commandTopic>
+    <odometryTopic>odometry</odometryTopic>
+    <odometryFrame>map </odometryFrame>
+    <robotBaseFrame>base_footprint</robotBaseFrame>
+    <legacyMode>false</legacyMode>
+  </plugin>
+</gazebo>
+
+</robot>
